@@ -1,8 +1,5 @@
 'use strict';
 
-var myJSONstring = '{"name":"test","parameter":2,"collection":[0,2],"dizionario":{"voceA":1,"voceB":2}}';
-var s = JSON.parse(myJSONstring);
-
 /*
   typeValue(value)
   returns a string representing the type of value as recognized by
@@ -54,5 +51,3 @@ function getSchema(json_object) {
 
   return schema;
 }
-
-console.log(getSchema(s));
